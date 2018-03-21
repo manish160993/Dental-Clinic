@@ -101,6 +101,34 @@ header a:hover{
   width:65%;
 }
 
+
+
+/* Appointment*/
+#appointment h2{
+  margin-top:50px;
+  font-size:35px;
+  margin-bottom:10px;
+  color: black; 
+  text-align:center;
+}
+#appointment h4{
+  font-size:20px;
+  margin-bottom:10px;
+  color: black; 
+  text-align:center;
+}
+#appointment{
+	margin: 60px 60px 60px 80px;
+	text-align:center-left;
+	font-size:25px;
+	color: red;
+}
+#appointment .quote input, .quote textarea, .quote select{
+  width:40%;
+  padding:5px;
+  
+}
+
 /* Boxes */
 #boxes{
   margin-top:20px;
@@ -171,16 +199,20 @@ footer{
   header nav,
   header nav li,
   #newsletter h1,
-  #newsletter form,
+  #appointment form,
   #boxes .box,
   #showcase_main,
   article#main-col,
-  aside#sidebar,.w3-card-4{
+  aside#sidebar,.w3-card-4,#appointment .quote input, .quote select{
     float:none;
     text-align:center;
     width:100%;
   }
 
+  #appointment{
+	margin: 0px 0px 0px 0px;
+	
+}
   header{
     padding-bottom:20px;
   }
@@ -189,12 +221,16 @@ footer{
     margin-top:40px;
   }
 
-  #newsletter button, .quote button{
+  .quote button{
+    display:block;
+    width:100%;
+  }
+  #appointment button, .quote button{
     display:block;
     width:100%;
   }
 
-  #newsletter form input[type="email"], .quote input, .quote textarea{
+  #appointment form input[type="email"], .quote input, .quote textarea{
     width:100%;
     margin-bottom:5px;
   }
