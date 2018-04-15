@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Dental Clinic">
+  	<meta name="author" content="Manish Biyani">
+    <title>Manish Dental Clinic | Welcome</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+	
+	<script language="JavaScript" type="text/javascript" src="/Appointment.js">
+	</script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Manish</span> Dental Clinic</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="home">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="services">Services</a></li>
+			<li><a href="appointment">Appointment</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+	  <div id="showcase_main">
+        <h1>Your Smile, Our Passion</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum condimentum.</p>
+      </div>
+	  
+	  <aside id="sidebar">
+          <div class="dark">
+            <h3>Sign Up</h3>
+            <form class="quote" name="myForm" onsubmit="return validateForm2()" method="post">
+  						<div>
+  							<label>Name</label><br>
+  							<input type="text" name="fname" placeholder="Name">
+  						</div>
+  						<div>
+  							<label>Email</label><br>
+  							<input type="email" name="email" placeholder="Email Address">
+  						</div>
+  						<div>
+  							<label>Mobile</label><br>
+  							<input id="telNo" name="telNo" type="tel" minlength="10" maxlength="12" placeholder="XXX-XXX-XXXX" required pattern="[1]{1}[0-9]{3}[0-9]{3}[0-9]{4}" title="Please provide only a mobile number with XXX-XXX-XXXX format">
+  						</div>
+  						<button class="button_1" type="submit">Send</button>
+					</form>
+          </div>
+        </aside>
+		</div>
+    </section>
+	
+
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./img/logo1.jpg">
+          <h3>Cleaning</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+        </div>
+        <div class="box">
+          <img src="./img/braces.png">
+          <h3>Ortho Treatment</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+        </div>
+        <div class="box">
+          <img src="./img/RCT.png">
+          <h3>Root Canal Treatment</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Manish Dental Clinic, Copyright &copy; 2017</p> 
+	  <a href="http://maps.google.com/?q=23.021818°N,75.232131°E">Address: Manish Dental Clinic, nr Baijnath Mahadev, Badnawar, Madhya Pradesh</a>
+	  
+    </footer>
+  </body>
+</html>
